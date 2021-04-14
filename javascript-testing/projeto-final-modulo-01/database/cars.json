@@ -1,0 +1,23 @@
+[
+    {
+        "id": "f7e06772-a981-44ba-b104-b24e5ca1b4d6",
+        "name": "LeBaron",
+        "releaseYear": 2020,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "f904352b-6932-4958-8c75-61e3fdee1291",
+        "name": "911",
+        "releaseYear": 2020,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "3befb84f-7b21-4346-959a-63990e138140",
+        "name": "Wrangler",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    }
+]
