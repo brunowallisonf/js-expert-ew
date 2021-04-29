@@ -7,6 +7,7 @@ class CarCategory extends Base{
         this.price = price;
 
     }
+    
 }
 
 module.exports = CarCategory;
