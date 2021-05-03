@@ -11,6 +11,7 @@ class CarService {
     async getAvailableCar(carCategory) {
         const carId = this.chooseRandomCar(carCategory);
         const car = await this.carRepository.find(carId);
+
         return car;
     }
     getRandomPositionFromArray(list) {
@@ -47,6 +48,7 @@ class CarService {
         return transaction;
     }
 }
+
 
 
 module.exports = CarService;
