@@ -20,4 +20,12 @@ export default class Person {
             to: new Intl.DateTimeFormat(language, {month: "long",day: "2-digit",year: "numeric"}).format(mapDate(this.to))
         }
     }
+
+    static generateIntanceFromString(text){
+        const EMPTY_SPACE = " ";
+        const [id,vehicles,kmTraveled,from,to] = text.split(EMPTY_SPACE);
+        const person = new Person({id,vehicles: vehicles.split(","),kmTraveled, from, to})
+        return person;
+    }
+
 }
